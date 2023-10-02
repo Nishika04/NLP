@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html, body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #222;
+      }
+
+      .wrapper {
+        display: grid;
+        place-items: center;
+        width: 100vw;
+        height: 100vh;
+      }
+
+      .content {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        max-width: 400px;
+      }
+
+      label {
+        color: white;
+      }
+
+      .content input {
+        padding: 8px 12px;
+        border-radius: 9px;
+        border: 2px solid lightgray;
+        font-weight: bold;
+      } 
+      
+      .content button, form button {
+        padding: 8px 12px;
+        border: none;
+        border-radius: 12px;
+        background-color: #d2bee8;
+        color: white;
+        font-weight: bold;
+      }
+
+      button:hover {
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      function showAlert() {
+        alert("The processed input string is: {{ processed_input_string }}");
+      }
+    </script>
+
+    <div class="wrapper">
+      <div class="content">
+        <form action="/process" method="POST">
+          <!-- input -->
+          <label for="input_string">Name:</label>
+          <input type="text" name="input_string" />
+
+          <!-- submit button -->
+          <button type="submit">SUBMIT</button>
+        </form>
+
+        <!-- other button to process stuff -->
+        <button onclick="showAlert()">SHOW ALERT</button>
+      </div>
+    </div>
+  </body>
+</html>
