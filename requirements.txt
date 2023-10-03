@@ -108,6 +108,3 @@ urllib3==1.26.16
 wcwidth==0.2.6
 Werkzeug==2.3.7
 wget==3.2
-wrapt==1.15.0
-yarg==0.1.9
-
