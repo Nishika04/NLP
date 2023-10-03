@@ -3,7 +3,6 @@ asttokens==2.4.0
 astunparse==1.6.3
 backcall==0.2.0
 blinker==1.6.2
-cachetools==5.3.1
 certifi==2023.7.22
 cffi==1.15.1
 chardet==3.0.4
@@ -24,7 +23,6 @@ filelock==3.12.4
 Flask==2.3.3
 Flask-Cors==4.0.0
 flatbuffers==23.5.26
-fonttools==4.42.1
 fsspec==2023.9.2
 future==0.18.3
 gast==0.4.0
@@ -112,4 +110,4 @@ Werkzeug==2.3.7
 wget==3.2
 wrapt==1.15.0
 yarg==0.1.9
-zipp==3.17.0
+
