@@ -13,7 +13,7 @@ from tensorflow import keras
 
 # Helper libraries
 import numpy as np
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 #import cv2
 import pandas as pd
 
@@ -23,7 +23,7 @@ from googletrans import Translator
 
 # Sklearn
 from sklearn.model_selection import train_test_split # Helps with organizing data for training
-from sklearn.metrics import confusion_matrix # Helps present results as a confusion-matrix
+# from sklearn.metrics import confusion_matrix # Helps present results as a confusion-matrix
 
 print(tf.__version__)
 
