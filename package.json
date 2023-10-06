@@ -1,19 +1,11 @@
 {
-  "dependencies": {
-    "http-proxy": "^1.18.1",
-    "jquery": "^3.7.1"
-  },
-  "name": "project",
-  "version": "1.0.0",
-  "main": "jquery-3.7.1.min.js",
-  "directories": {
-    "test": "test"
-  },
+  "name": "project1",
+  "version": "3.9.18",
+  "description": "",
+  "main": "server.py",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "",
-  "license": "ISC",
-  "description": ""
+  "license": "ISC"
 }
