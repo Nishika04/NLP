@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify, send_file
 from flask_cors import CORS, cross_origin
-from multiple_emotions_nlp_implementation_reddit import analysis
+from NLP.multiple_emotions_nlp_implementation_reddit import analysis
 import pandas as pd
 import os
 
